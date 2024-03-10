@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERMAN RESAURANT</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../food.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../ICONS&IMGS/dish-solid-24.png">
+    <link rel="stylesheet" href="../styles/styles/swiper-bundle.min.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <ol class="header--links">
+            <li id="german">GERMAN RESAURANT</li>
+            <li>
+                <ol id="links">
+                    <li title="HOME"><a href ="../BREAKFAST/breakfast.html" class="a">BREAKFAST</a></li>
+                    <li title="ABOUT"><a href="../LUNCH/lunch.html" class="a">LUNCH</a></li>
+                    <li title="CONTACTS"><a href="../DINNER/dinner.html" class="a">DINNER</a></li>
+                    <li title="HELP"><a href="../MENU/menu.html" class="a">MENU</a></li>
+                </ol>
+            </li>
+            <li id="search_container">
+                <i class='bx bx-moon themeIcon' id="themeIcon" onclick="darkmode()"></i>
+                <i class='bx bxs-search search-button' id="search-button"></i>
+                <button class="log">Login</button>
+            </li>
+        </ol>
+    </header>
+<!-- CART -->
+<div class="cartBox" style="display: none;">
+    <input type="number" class="number" value="0" readonly>
+    <img src="../ICONS&IMGS/cart1.png">
+    <button class="purchase">PURCHASE</button>
+</div>
+<!-- SEARCH -->
+<section class="search" id="search-content">
+    <div class="search-wrapper">
+        <label for="search">Search Here...</label>
+        <input type="search" id="search" data-search class="data-search" placeholder="Search...">
+    </div>
+    <i class='bx bx-x' id="search-close"></i>
+</section>
+    <main class="main">
+        <section class="restaurant">
+            <h2 class="homeTitle">GERMAN RESAURANT</h2>
+            <div class="homeContainer">
+                <p class="homeText">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Assumenda tenetur nisi consequatur sapiente, architecto 
+                    quidem unde accusantium ad delectus, provident nobis 
+                    animi, saepe nam laborum quia. Eligendi blanditiis neque natus.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Assumenda tenetur nisi consequatur sapiente, architecto 
+                    quidem unde accusantium ad delectus, provident nobis 
+                    animi, saepe nam laborum quia. Eligendi blanditiis neque natus.
+                    Assumenda tenetur nisi consequatur sapiente, architecto 
+                    quidem unde accusantium ad delectus, provident nobis 
+                    Assumenda tenetur nisi consequatur sapiente, architecto 
+                    quidem unde accusantium ad delectus, provident nobis 
+                </p>
+                <div class="container">
+                    <div class="slider-wrapper">
+                        <div class="image-list">
+                            <img src="../ICONS&IMGS/breakfast.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/Salad 1.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/tea.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/banana.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/Chips 2.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/Chicken 1.webp" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/caserole.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/Potage.webp" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/pizza 3.jpg" class="image-item" loading="lazy">
+                            <img src="../ICONS&IMGS/potatoes.webp" class="image-item" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="breakfast" id="breakfast">
+            <h2  class="homeTitle">BREAKFAST</h2>
+            <div class="breakfastContainer">
+                <div class="breakfastImages">
+                    <div class="imageItem">
+                        <p class="price" id="price">$2.4</p>
+                        <img src="../ICONS&IMGS/40 Best Keto Breakfasts.webp" loading="lazy" width="500px" height="500px">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="pancake normalPancake">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$3</p>
+                        <img src="../ICONS&IMGS/breakfast.jpg" loading="lazy" width="500px" height="40%">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="taco normalCake">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$5</p>
+                        <img src="../ICONS&IMGS/64 easy sweet breakfast recipes to put you in a good mood.jpg" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="pancake blackberryPancake">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$2.4</p>
+                        <img src="../ICONS&IMGS/Egg Tartine.jpg" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="eggTortine normalTortine">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$3.2</p>
+                        <img src="../ICONS&IMGS/Hash-Brown Breakfast Toast with Egg & Salsa.jpg" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="eggTortine friedTortune">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="breakfastImages">
+                    <div class="imageItem">
+                        <p class="price" id="price">$2.4</p>
+                        <img src="../ICONS&IMGS/tea.webp" loading="lazy" width="500px" height="500px">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="tea mukaru">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$3</p>
+                        <img src="../ICONS&IMGS/pain.jpg" loading="lazy" width="500px" height="40%">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="bread normalBread">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$5</p>
+                        <img src="../ICONS&IMGS/Quick healthy breakfast.jfif" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="eggTortine tortine">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$2.4</p>
+                        <img src="../ICONS&IMGS/banana.jpg" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="banana normalBanana">ADD TO CART</button>
+                    </div>
+                    <div class="imageItem">
+                        <p class="price" id="price">$3.2</p>
+                        <img src="../ICONS&IMGS/cheese 1.jpg" loading="lazy">
+                        <p class="imgText">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="submit" class="cartButton" data-values="cheese normalCheese">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lunch" id="lunch">
+            <h2 class="homeTitle">LUNCH</h2>
+            <div class="lunchContainer">
+                <div class="lunchImageContainer">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p style="color: #101;">
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$5</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="burger normalBurger">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/burger 1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$3.5</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="chicken friedChicken">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/Chicken 2.webp">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$5.4</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="chips normalChips">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/Chips 3.webp">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$6.3</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="fish friedFish">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/Fried-Fish.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p style="color: #201;">
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$9.4</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="omulete normalOmlete">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/omulete.jpg">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="lunchImageContainer">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p style="color: #fff;">
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$4.7</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="eggTortine advancedTortine">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/Egg Tartine.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$15.3</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="potatoes normalPotatoes">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/potatoes.webp">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$6.6</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="omulete friedOmulete">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/omulete.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p style="color: #201;">
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #fff;font-size: 30px;">$5.9</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="pizza normalPizza">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/pizza 3.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="lunchText">
+                                    <p style="color: #201;">
+                                        Lorem ipsum dolor sit amet consectetur <br> adipisicing 
+                                        elit. Rerum, <br> fugit vitae. Excepturi voluptatem omnis. <br>
+                                        <span style="color: #201;font-size: 30px;">$9.5</span>
+                                    </p>
+                                    <button type="submit" class="lunchButton cartButton" data-values="eggTortine eggRecipe">ADD TO CART</button>
+                                </div>
+                                <img src="../ICONS&IMGS/Sunny-Side Up Fried Eggs Recipe.jpg">
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dinner" id="dinner">
+            <h2 class="homeTitle">DINNER</h2>
+            <div class="dinnerContainer">
+                <div class="dinnerImages">
+                    <div class="dinnerSwiper">
+                        <div class="swiper-wrapper">
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/caserole.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$7.4</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="caserole normalCaserole">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/Potage.webp">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$5</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="potage normalPotage">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/pizza 1.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$12</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="pizza advancedPizza">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/rice.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$7</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="rice redRice">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/potatoes.webp">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$10</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="potage normalPotage">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/coffee.png">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$6.6</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="coffee normalCoffee">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/tea 2.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$7.4</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="tea normalTea">ADD TO CART</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dinnerImages">
+                    <div class="dinnerSwiper">
+                        <div class="swiper-wrapper">
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/Salad 1.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$4</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="salad normalSalad">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/Sunny-Side Up Fried Eggs Recipe.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$3.55</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="eggRecipe advancedTortine">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/Chips 1.avif">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$7.4</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="chips sote">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/cheese 3.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$4.5</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="cheese advancedCheese">ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <div class="dinnerImage swiper-slide">
+                                    <img src="../ICONS&IMGS/Fish 1.jpg">
+                                    <div class="dinnerText">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Repellat saepe quas 
+                                            asperiores expedita optio iusto repellendus. <br>
+                                            <span style="font-size: 30px;color: #201;">$3.5</span>
+                                        </p><br>
+                                        <button class="dinnerButton cartButton" data-values="fish normalFish">ADD TO CART</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="smallnote">
+                <h2 class="footerTitle">GERMAN RESAURANT</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores ipsum quia tenetur 
+                    autem suscipit laboriosam ullam reprehenderit dolore, doloremque minima recusandae fuga 
+                    accusamus dicta facere ducimus excepturi nesciunt minus.
+                </p>
+            </div>
+            <div class="footerLinks">
+                <fieldset class="about">
+                    <legend>ABOUT US</legend>
+                    <ul>
+                        <li><a href="../ABOUT/about.html#awards">Awards</a></li>
+                        <li><a href="../ABOUT/about.html#faqs">FAQs</a></li>
+                        <li><a href="../ABOUT/about.html#privacy">Privacy Policy</a></li>
+                        <li><a href="../ABOUT/about.html#terms">Terms of Conditions</a></li>
+                    </ul>
+                </fieldset>
+                <fieldset class="contacts">
+                    <legend>CONTACT US</legend>
+                    <ul>
+                        <li><a href="../CONTACTS/contacts.html#contacts">Email:</a></li>
+                        <li><a href="../CONTACTS/contacts.html#comment">Comments:</a></li>
+                    </ul>
+                </fieldset>
+                <fieldset class="follow">
+                    <legend>FOLLOW US ON</legend>
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                        <li><a href="#"><i class='bx bxl-whatsapp'></i></a></li>
+                    </ul>
+                </fieldset>
+            </div>
+        </section>
+        <div class="copy">
+            &copy; GERMAN RESAURANT
+        </div>
+    </footer>
+    <script src="../script/main.js"></script>
+<script src="../script/cart.js"></script>
+<script src="../script/search.js"></script>
+<script src="../script/SWIPERS/swiper-bundle.min.js"></script>
+</body>
+</html>

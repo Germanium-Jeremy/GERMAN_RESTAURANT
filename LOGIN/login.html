@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERMAN RESTAURANT</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="../LOGIN/login.js"></script>
+    <link rel="shortcut icon" href="../ICONS&IMGS/dish-solid-24.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper"> 
+        <span class="icon-close">
+            <box-icon name='x-circle'></box-icon>
+        </span>
+
+        <div class="form-box login">
+            <h2>LOGIN</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                    <input type="email" name="email" required>
+                    <label> Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='envelope'></box-icon></span>
+                    <input type="password" name="passworda" required>
+                    <label> Password</label>
+                </div>
+                <div class="remember_forget">
+                    <label> <input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn" ><a href="../HOME/home.html">Login </a></button>               <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registeration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><box-icon name='user' ></box-icon></span>
+                    <input type="text" required>
+                    <label> Username </label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='lock-alt'></box-icon></span>
+                    <input type="email" required>
+                    <label> Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><box-icon type='solid' name='envelope'></box-icon></span>
+                    <input type="password" required>
+                    <label> Password</label>
+                </div>
+                <div class="remember_forget">
+                    <label> <input type="checkbox">Agree to the terms & conditions</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <div class="login-register">
+                <a href="../HOME/home.html"><button class="btn">log in</button></a>           
+                    <p>Already have an account?<a href="#" class="loginLink">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        const wrapper = document.querySelector(' .wrapper');
+        const loginLink = document.querySelector(' .login-link');
+        const registerLink = document.querySelector(' .register-link');
+        const btnPopup = document.querySelector(' .btnLogin-popup');
+
+registerLink.addEventListener('click', ()=> {
+    wrapper.classList.add('active');
+});
+
+loginLink.addEventListener('click', ()=> {
+    wrapper.classList.remove('active');
+});
+
+btnPopup.addEventListener('click', ()=> {
+    wrapper.classList.add('active-popup');
+});
+    </script>
+    <script type="module" src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script nomodule src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"> </script>
+</body>
+</html>

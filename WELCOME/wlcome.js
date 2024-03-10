@@ -1,0 +1,1 @@
+//let opt = confirm("Agree to our Terms and Conditions")

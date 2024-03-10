@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERMAN RESTAURANT</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="../food.css">
+    <link rel="stylesheet" href="../styles/darkTheme.css">
+    <link rel="shortcut icon" href="../ICONS&IMGS/dish-solid-24.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="../script/search.js"></script>
+</head>
+<body>
+<header>
+   <ol class="header--links">
+         <li id="german">GERMAN RESAURANT</li>
+         <li>
+            <ol id="links">
+               <li title="HOME"><a href ="../HOME/home.html" class="a">HOME</a></li>
+               <li title="BREAKFAST"><a href="../BREAKFAST/breakfast.html" class="a">BREAKFAST</a></li>
+               <li title="LUNCH"><a href="../LUNCH/lunch.html" class="a">LUNCH</a></li>
+            </ol>
+         </li>
+         <li id="search_container">
+            <i class='bx bx-moon themeIcon' id="themeIcon" onclick="darkmode()"></i>
+            <i class='bx bxs-search search-button' id="search-button"></i>
+            <button class="log">Login</button>
+        </li>
+   </ol>
+</header>
+<!-- SEARCH -->
+<section class="search" id="search-content">
+   <div class="search-wrapper">
+       <label for="search">Search Here...</label>
+       <input type="search" id="search" data-search class="data-search" placeholder="Search...">
+   </div>
+   <i class='bx bx-x' id="search-close"></i>
+</section>
+<!-- CARTBOX -->
+<div class="cartBox" style="display: none;">
+   <input type="number" class="number" value="0" readonly>
+   <img src="../ICONS&IMGS/cart1.png">
+   <button class="purchase">PURCHASE</button>
+</div>
+<main class="main">
+   <h2 class="menuTitla">OUR MENU</h2>
+   <table class="tableMenu">
+      <thead>
+         <tr>
+            <th class="widthWidened">image</th>
+            <th>meal</th>
+            <th>price</th>
+            <th>to cart</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th colspan="4" class="subTitles">EARLY BREAKFAST</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/tea.jpg"></td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td class="price">$12</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Amet consectetur adipisicing.</td>
+            <td class="price">$15</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Elit. Dolorem sapiente, . </td>
+            <td class="price">$16.5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/64 easy sweet breakfast recipes to put you in a good mood.jpg"></td>
+            <td>Inventore in vero reiciendis.</td>
+            <td class="price">$8.5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Nulla voluptate similique.</td>
+            <td class="price">$9.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/banana.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/sandwitch 1.jpg"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/cheese 2.jpg"></td>
+            <td>Excepturi atque iste ullam.</td>
+            <td class="price">$4</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Assumenda possimus reiciendis.</td>
+            <td class="price">$5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/Egg Tartine.jpg"></td>
+            <td>Dignissimos tempore architecto.</td>
+            <td class="price">$4.54</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Veniam eligendi quidem temporibus.</td>
+            <td class="price">$5.43</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Exercitationem aperiam eos.</td>
+            <td class="price">$16.5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <th colspan="4" class="subTitles">LATE BREAKFAST</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/pain.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/Quick healthy breakfast.jfif"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/breakfast.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- LUNCH CARDS -->
+         <tr>
+            <th colspan="4" class="subTitles">MID LUNCH</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/40 Best Keto Breakfasts.webp"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="4"><img src="../ICONS&IMGS/Chicken 2.webp"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Kuibrew wreh wrfhw re.</td>
+            <td class="price">$10</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/Chips 3.webp"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/rice.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <th colspan="4" class="subTitles">LATE LUNCH</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/Chips 1.avif"></td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td class="price">$12</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Amet consectetur adipisicing.</td>
+            <td class="price">$15</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Elit. Dolorem sapiente, . </td>
+            <td class="price">$16.5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/rice 1.avif"></td>
+            <td>Inventore in vero reiciendis.</td>
+            <td class="price">$8.5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Nulla voluptate similique.</td>
+            <td class="price">$9.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/banana.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/Fish 1.jpg"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/pizza 3.jpg"></td>
+            <td>Excepturi atque iste ullam.</td>
+            <td class="price">$4</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Assumenda possimus reiciendis.</td>
+            <td class="price">$5</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- DINNER CARDS -->
+         <tr>
+            <th colspan="4" class="subTitles">DINNER</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/caserole 1.jpg"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="4"><img src="../ICONS&IMGS/burger 1.jpg"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Kuibrew wreh wrfhw re.</td>
+            <td class="price">$10</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/Fish 2.jpg"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- LUNCH CARDS -->
+         <tr>
+            <th colspan="4" class="subTitles">SUPPER</th>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="3"><img src="../ICONS&IMGS/Salad 1.jpg"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="4"><img src="../ICONS&IMGS/coffee.png"></td>
+            <td>Dolor maiores suscipit.</td>
+            <td class="price">$6.6</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Lorem ipsum dolor sit amet.</td>
+            <td class="price">$7.1</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Consectetur, adipisicing elit.</td>
+            <td class="price">$7.7</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Kuibrew wreh wrfhw re.</td>
+            <td class="price">$10</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <!-- BREAKFAST CARDS -->
+         <tr>
+            <td rowspan="2"><img src="../ICONS&IMGS/Potage.webp"></td>
+            <td>Neque porro ullam doloribus hic.</td>
+            <td class="price">$2</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+         <tr>
+            <td>Quam vero illum at quibusdam.</td>
+            <td class="price">$2.3</td>
+            <td><button class="menuButtons cartButton">ADD TO CART</button></td>
+         </tr>
+      </tbody>
+      <tfoot>
+         <tr>
+            <td colspan="4">CONSIDER CHECKING THE CART BOX FOR PAYMENT METHOD</td>
+         </tr>
+      </tfoot>
+   </table>
+</main>
+<footer>
+   <section class="footer">
+       <div class="smallnote">
+           <h2 class="footerTitle">GERMAN RESAURANT</h2>
+           <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores ipsum quia tenetur 
+               autem suscipit laboriosam ullam reprehenderit dolore, doloremque minima recusandae fuga 
+               accusamus dicta facere ducimus excepturi nesciunt minus.
+           </p>
+       </div>
+       <div class="footerLinks">
+           <fieldset class="about">
+               <legend>ABOUT US</legend>
+               <ul>
+                   <li><a href="../ABOUT/about.html#awards">Awards</a></li>
+                   <li><a href="../ABOUT/about.html#faqs">FAQs</a></li>
+                   <li><a href="../ABOUT/about.html#privacy">Privacy Policy</a></li>
+                   <li><a href="../ABOUT/about.html#terms">Terms of Conditions</a></li>
+               </ul>
+           </fieldset>
+           <fieldset class="contacts">
+               <legend>CONTACT US</legend>
+               <ul>
+                   <li><a href="../CONTACTS/contacts.html#contacts">Email:</a></li>
+                   <li><a href="../CONTACTS/contacts.html#comment">Comment:</a></li>
+               </ul>
+           </fieldset>
+           <fieldset class="follow">
+               <legend>FOLLOW US ON</legend>
+               <ul>
+                   <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-whatsapp'></i></a></li>
+               </ul>
+           </fieldset>
+       </div>
+   </section>
+   <div class="copy">
+       &copy; GERMAN RESAURANT
+   </div>
+</footer>   
+<script src="menu.js"></script>
+<script src="../script/main.js"></script>
+<script src="../script/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,304 @@
+/* === THE CART CSS FOR ALL PAGES === */
+.cartBox{
+    width: 5cm;
+    height: 3cm;
+    background: linear-gradient(to right, #101, #401, #602, #101, #401);
+    border-radius: 20px;
+    border: 2px solid #401;
+    position: fixed;
+    top: 2cm;
+    right: 1rem;
+    overflow: hidden;
+    z-index: 100;
+    animation: shake 0.5s ease-in-out;
+}
+
+.cartBox img{
+    width: 3cm;
+    position: relative;
+    overflow: hidden;
+}
+
+.purchase{
+    padding: .8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    background: #602;
+    color: #ddd;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.purchase:hover{
+    background: #803;
+    color: #fff;
+    box-shadow: 2px 4px 8px #fff;
+    transition: .4s;
+}
+
+.number{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    background-color: #0ac;
+    height: 2rem;
+    text-indent: 1rem;
+    width: 4rem;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    overflow: hidden;
+    outline: none;
+    z-index: 300;
+}
+
+.number:hover{
+    background: #0ef;
+    color: #101;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-5px) rotate(-5deg); }
+    40% { transform: translateX(5px) rotate(5deg); }
+    60% { transform: translateX(-5px) rotate(-5deg); }
+    80% { transform: translateX(5px) rotate(5deg); }
+    100% { transform: translateX(0); }
+}
+
+/* === THE SEARCH CONTAINER CSS === */
+.search{
+    position: fixed;
+    top: -120%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(16px);
+    z-index: 100;
+    text-align: left;
+    justify-content: center;
+    padding: 2rem;
+    transition: .4s;
+}
+
+.search i{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 30px;
+    color: navajowhite;
+    background: #0ac;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.search i:hover{
+    background: #0ef;
+    transition: .4s;
+}
+
+.search-wrapper{
+    padding: 1rem;
+    border: 2px solid;
+    height: 2.5cm;
+    width: 80%;
+    display: block;
+}
+
+.search-wrapper label{
+    font-size: 22px;
+    color: #101;
+}
+
+.data-search{
+    width: 80%;
+    min-height: 1cm;
+    background: #eee;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: hsla(230, 3%, 10%, .8);
+    outline: none;
+}
+
+.log{
+    padding: .6rem;
+    font-size: 16px;
+    color: #ddd;
+    background: #401;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+.log:hover{
+    background: #602;
+    box-shadow: 3px 4px 8px #602;
+    transition: .3s;
+}
+
+.search-button, .themeIcon{
+    color: #401;
+    font-size: 24px;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.search-button:hover, .themeIcon:hover{
+    color: #803;
+    transition: .3s;
+}
+
+.show-search{
+    top: 0;
+}
+
+/* DARK MODE CSS */
+.darkMode{
+    background: url(ICONS&IMGS/omlete.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    color: #bcd;
+    transition: .6s;
+}
+
+.darkMode a{
+    color: #bcd;
+}
+
+.darkMode a:hover{
+    color: #fff;
+}
+
+.darkMode #links a{
+    color: #bcd;
+}
+
+.darkMode #links a:hover{
+    color: #fff;
+    text-shadow: 2px 4px 8px #bcd;
+    transition: .3s;
+}
+
+.darkMode #search-bar{
+    border-color: #bcd;
+    transition: .3s;
+}
+
+.darkMode #search_bar{
+    border-color: #bcd;
+    transition: .3s;
+}
+
+.darkMode .homeTitle{
+    color: #bcd;
+    transition: .3s;
+}
+
+.darkMode .menuTitla{
+    color: #bcd;
+    transition: .3s;
+}
+
+.darkMode .breakfastImages{
+    box-shadow: 8px 6px 6px #8888;
+}
+
+.darkMode .imgText{
+    color: #bcd;
+}
+
+.darkMode .imageItem:hover img{
+    box-shadow: 3px 4px 2px #555;
+}
+
+.darkMode .swiper-button-next, .darkMode .swiper-button-prev{
+    color: #bcd;
+}
+
+.darkMode .dinnerText{
+    color: #bcd;
+}
+
+.darkMode .dinnerImage{
+    box-shadow: 3px 2px 7px #bcd;
+}
+
+.darkMode .smallnote p{
+    color: #bcd;
+    transition: .3s;
+}
+
+.darkMode legend{
+    color: #bcd;
+    transition: .3s;
+}
+
+.darkMode .footerTitle{
+    color: #bcd;
+    transition: .4s;
+}
+
+.darkMode .footerLinks fieldset{
+    border-color: #bcd;
+    transition: .3s;
+}
+
+.darkMode .search-wrapper label{
+    color: #bcd;
+    transition: .4s;
+}
+
+.darkMode .follow i{
+    color: #bcd;
+    transition: .4s;
+}
+
+/* headers */
+.darkMode .log{
+    background: #ccc;
+    color: #101;
+    transition: .3s;
+}
+
+.darkMode .log:hover{
+    box-shadow: 2px 5px 10px #ccc;
+    transition: .3s;
+}
+
+.darkMode .log:hover{
+    background: #eee;
+    color: #404;
+    transition: .3s;
+}
+
+.darkMode .search-button, .darkMode  .themeIcon{
+    color: #ccc;
+    transition: .3s;
+}
+
+.darkMode .search-button:hover, .darkMode .themeIcon:hover{
+    color: #eee;
+    transition: .3s;
+}
+
+/* main */
+.darkMode .imageContainer{
+    box-shadow: 2px 5px 10px #ccc;
+    transition: .3s;
+}
+
+.darkMode table, .darkMode th, .darkMode td{
+    border-color: #bcd;
+    color: #bcd;
+    transition: .4s;
+}

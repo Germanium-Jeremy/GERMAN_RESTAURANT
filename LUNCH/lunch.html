@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERMAN RESTAURANT</title>
+    <link rel="stylesheet" href="lunch.css">
+    <link rel="stylesheet" href="../food.css">
+    <link rel="stylesheet" href="../styles/styles/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../ICONS&IMGS/dish-solid-24.png" type="image/x-icon">
+</head>
+<body>
+   <header>
+      <ol class="header--links">
+          <li id="german">GERMAN RESAURANT LUNCH</li>
+          <li>
+              <ol id="links">
+                  <li title="HOME"><a href ="../HOME/home.html" class="a">HOME</a></li>
+                  <li title="BREAKFAST"><a href="../BREAKFAST/breakfast.html" class="a">BREAKFAST</a></li>
+                  <li title="DINNER"><a href="../DINNER/dinner.html" class="a">DINNER</a></li>
+                  <li title="MENU"><a href="../MENU/menu.html" class="a">MENU</a></li>
+              </ol>
+          </li>
+          <li id="search_container">
+            <i class='bx bx-moon themeIcon' id="themeIcon" onclick="darkmode()"></i>
+            <i class='bx bxs-search search-button' id="search-button"></i>
+            <button class="log">Login</button>
+        </li>
+      </ol>
+  </header>
+<!-- SEARCH -->
+<section class="search" id="search-content">
+   <div class="search-wrapper">
+       <label for="search">Search Here...</label>
+       <input type="search" id="search" data-search class="data-search" placeholder="Search...">
+   </div>
+   <i class='bx bx-x' id="search-close" style="right: 2.7cm;"></i>
+</section>
+<!-- CARTBOX -->
+<div class="cartBox" style="display: none;">
+   <input type="number" class="number" value="0" readonly>
+   <img src="../ICONS&IMGS/cart1.png">
+   <button class="purchase">PURCHASE</button>
+</div>
+   <main class="main">
+      <section class="lunch">
+         <h2 class="homeTitle">MID LUNCH</h2>
+         <div class="midLunch">
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">$10.5</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/omulete.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">12</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/rice 1.avif">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">$6.4</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/pizza 2.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">$10</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/Chips 2.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">$20.2</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/Chicken 1.webp">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span style="color: #201;">$20.2</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/potatoes.webp">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h2 class="home">LATE LUNCH</h2>
+         <div class="lateLunch">
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p style="color: #fff;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span>$12.3</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/rice.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p style="color: #fff;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span>$12.3</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/burger 1.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p style="color: #fff;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span>$12.3</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/caserole.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p style="color: #fff;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span>$12.3</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/caserole 1.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="imageContainer">
+               <div class="imageItem">
+                  <div class="imgText">
+                     <p style="color: #fff;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nulla vitae quo quasi 
+                        earum saepe magnam ullam corporis, laudantium facere voluptatem distinctio accusamus 
+                        possimus doloribus, excepturi maiores dolores facilis dolore. <br>
+                        <span>$12.3</span>
+                     </p>
+                  </div>
+                  <img src="../ICONS&IMGS/Fish 2.jpg">
+                  <div class="someText">
+                     <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur adipisci 
+                        officia ipsum magni, id eius fugiat dolorem. Rem, optio? Eum possimus temporibus 
+                        impedit facere, architecto similique eveniet numquam sapiente voluptates? <br>
+                        <button class="lunchButton cartButton">ADD TO CART</button>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div> 
+      </section>
+   </main>
+  <footer>
+   <section class="footer">
+       <div class="smallnote">
+           <h2 class="footerTitle">GERMAN RESAURANT</h2>
+           <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis dolores ipsum quia tenetur 
+               autem suscipit laboriosam ullam reprehenderit dolore, doloremque minima recusandae fuga 
+               accusamus dicta facere ducimus excepturi nesciunt minus.
+           </p>
+       </div>
+       <div class="footerLinks">
+           <fieldset class="about">
+               <legend>ABOUT US</legend>
+               <ul>
+                   <li><a href="../ABOUT/about.html#awards">Awards</a></li>
+                   <li><a href="../ABOUT/about.html#faqs">FAQs</a></li>
+                   <li><a href="../ABOUT/about.html#privacy">Privacy Policy</a></li>
+                   <li><a href="../ABOUT/about.html#terms">Terms of Conditions</a></li>
+               </ul>
+           </fieldset>
+           <fieldset class="contacts">
+               <legend>CONTACT US</legend>
+               <ul>
+                   <li><a href="../CONTACTS/contacts.html#contacts">Email:</a></li>
+                   <li><a href="../CONTACTS/contacts.html#comment">Comment:</a></li>
+               </ul>
+           </fieldset>
+           <fieldset class="follow">
+               <legend>FOLLOW US ON</legend>
+               <ul>
+                   <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                   <li><a href="#"><i class='bx bxl-whatsapp'></i></a></li>
+               </ul>
+           </fieldset>
+       </div>
+   </section>
+   <div class="copy">
+       &copy; GERMAN RESAURANT
+   </div>
+</footer>
+<script src="lunch.js"></script>
+<script src="../script/main.js"></script>
+<script src="../script/cart.js"></script>
+<script src="../script/search.js"></script>
+<script src="../script/SWIPERS/swiper-bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: url(ICONS&IMGS/caserole.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    background: #162938;
+    color: #fff;
+    min-height: 3cm;
+}
+
+.area .links{
+    float: right;
+    display: flex;
+}
+
+.area .links ol{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.area .links li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.area .links li a:hover{
+    color: aqua;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+.area .foods{
+    float: inline-end;
+    display: flex;
+    margin-top: -30px;
+}
+
+.area .foods ol{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.area .foods li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.area .foods li a:hover{
+    color: aqua;
+    font-weight: bolder;
+    text-decoration: double;
+}
+
+.dinner{
+    font-size: 40px;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1.3cm;
+    margin-left: 7cm;
+}
+
+#search-input{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    text-indent: 10px;
+}
+
+#search-button{
+    font-size: 30px;
+    background: #fff;
+    color: #162938;
+    border-radius: 10px;
+}
+
+#search-button:hover{
+    background: #162938;
+    color: #fff;
+}
+
+footer{
+    background: #162938;
+    padding: 5px;
+    min-height: 7cm;
+}
+
+.footer-links{
+    display: flex;
+    padding-inline: 50px;
+    padding: 20px;
+}
+
+.footer-links ol{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.foods h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding-inline: 40px;
+}
+
+.foods ol a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.foods ol a:hover{
+    color: aqua;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.about h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about ol a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.about ol a:hover{
+    padding-left: 4px;
+    color: aqua;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact ol a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.contact ol a:hover{
+    padding-left: 4px;
+    color: aqua;
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.follow h5{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.follow ol{
+    display: flex;
+}
+
+.follow ol a{
+    display: flex;
+    font-size: 30px;
+    border-radius: 30px;
+    color: #fff;
+    background: #162938;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.follow ol a:hover{
+    color: #162938;
+    background: #fff;
+    transition: 0.7s;
+}
+
+#copyright{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -3cm;
+}
+
+.menu{
+    color: #162938;
+    text-align: center;
+    font-size: 24px;
+}
+
+table{
+    width: 90%;
+    margin-left: 2cm;
+}
+
+table,
+th,
+td{
+    border: 3px solid #162938;
+    color: #162938;
+    border-collapse: collapse;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+td{
+    max-width: 2cm;
+    text-align: center;
+}
+
+.images{
+    width: 4cm;
+    height: 2cm;
+    border-radius: 10px;
+    display: flex;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #bcd;
+    min-height: 3cm;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 100.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content a{
+    color: #162938;
+}
+
+#drop{
+    font-size: 24px;
+    margin-right: 0.5cm;
+    font-weight: bold;
+}

@@ -1,0 +1,117 @@
+body{
+    background-image: url(../ICONS&IMGS/caserole\ 1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    position: fixed;
+}
+
+h1{
+    color: #162839;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 4cm;
+}
+
+#search_bar{
+    height: 50px;
+    border: 2px solid #162839;
+    background: #bcd;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 2cm;
+    height: 56px;
+    color: #162839;
+    cursor: pointer;
+    border-left: none;
+    border: 2px solid #162839;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button:hover{
+    box-shadow: #333;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fbf;
+    transition: 0.1s;
+}
+
+.input-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee{
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.index-links, #links, .search{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+#links li{
+    font-size: 40px;
+    color: #162839;
+    display: flex;
+    padding: 0.4cm;
+    justify-content: space-between;
+}
+
+header ol li{
+    color: #bcd;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#links li a{
+    color: #bcd;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#links li a:hover{
+    color: #fff;
+    transition: 0.3s;
+    font-style: italic;
+}
+
+#german{
+    font-size: 40px;
+}
+
+.images{
+    width: 5cm;
+    border: #162839 1px solid;
+}
+
+main{
+    display: flex;
+}
+
+.image{
+    height: 12.6cm;
+    width: 7cm;
+    overflow: hidden;
+}
+
+::placeholder{
+    color: #162839;
+    font-weight: 600;
+}

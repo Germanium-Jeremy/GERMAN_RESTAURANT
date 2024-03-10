@@ -1,0 +1,328 @@
+[
+  {
+    "category": "breads",
+    "link": "../certainfoods/breads.html",
+    "products": [
+      {
+        "id": 1,
+        "productName": "pain francais",
+        "img":"../ICONS&IMGS/frenchBread.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 2,
+        "productName": "pain francais",
+        "img":"../ICONS&IMGS/frenchBread1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 3,
+        "productName": "korean bread",
+        "img":"../ICONS&IMGS/koreanBread.jpeg",
+        "second-link": ""
+      },
+      {
+        "id": 4,
+        "productName": "korean bread",
+        "img":"../ICONS&IMGS/koreanBread1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 5,
+        "productName": "korean bread",
+        "img":"../ICONS&IMGS/koreanBread2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 6,
+        "productName": "korean bread",
+        "img":"../ICONS&IMGS/koreanBread3.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 7,
+        "productName": "korean bread",
+        "img":"../ICONS&IMGS/koreanBread4.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 8,
+        "productName": "chinese bread",
+        "img":"../ICONS&IMGS/chinesebread.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 9,
+        "productName": "chinese bread",
+        "img":"../ICONS&IMGS/chinesebread1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 10,
+        "productName": "chinese bread",
+        "img":"../ICONS&IMGS/chinesebread2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 11,
+        "productName": "bread",
+        "img":"../ICONS&IMGS/bread.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 12,
+        "productName": "bread",
+        "img":"../ICONS&IMGS/bread1.gif",
+        "second-link": ""
+      },
+      {
+        "id": 13,
+        "productName": "bread",
+        "img":"../ICONS&IMGS/bread2.jpg",
+        "second-link": ""
+      }
+    ]
+  },
+  {
+    "category": "rice",
+    "link": "../certainfoods/rice.html",
+    "products": [
+      {
+        "id": 14,
+        "productName": "pakistan rice",
+        "img":"../ICONS&IMGS/rice 1.avif",
+        "second-link": "../certainfoods/rice.html#pakistan"
+      },
+      {
+        "id": 15,
+        "productName": "chinese rice",
+        "img":"../ICONS&IMGS/chineseRice.jpg",
+        "second-link": "../certainfoods/rice.html#chinese"
+      },
+      {
+        "id": 16,
+        "productName": "chinese rice",
+        "img":"../ICONS&IMGS/chineseRice1.jpg",
+        "second-link": "../certainfoods/rice.html#chinese"
+      },
+      {
+        "id": 17,
+        "productName": "rice",
+        "img":"../ICONS&IMGS/rice1.webp",
+        "second-link": "../certainfoods/rice.html"
+      },
+      {
+        "id": 18,
+        "productName": "rice",
+        "img":"../ICONS&IMGS/rice2.jpg",
+        "second-link": "../certainfoods/rice.html"
+      }
+    ]
+  },
+  {
+    "category": "meat",
+    "link": "../certainfoods/meat.html",
+    "products": [
+      {
+        "id": 19,
+        "productName": "pork",
+        "img":"../ICONS&IMGS/pork.jp",
+        "second-link": ""
+      },
+      {
+        "id": 20,
+        "productName": "pork",
+        "img":"../ICONS&IMGS/pork1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 21,
+        "productName": "pork",
+        "img":"../ICONS&IMGS/pork2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 22,
+        "productName": "cow",
+        "img":"../ICONS&IMGS/cow.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 23,
+        "productName": "cow",
+        "img":"../ICONS&IMGS/cow.webp",
+        "second-link": ""
+      },
+      {
+        "id": 24,
+        "productName": "chicken",
+        "img":"../ICONS&IMGS/Chicken 1.webp",
+        "second-link": ""
+      },
+      {
+        "id": 25,
+        "productName": "chicken",
+        "img":"../ICONS&IMGS/Chicken 2.webp",
+        "second-link": ""
+      },
+      {
+        "id": 26,
+        "productName": "chicken",
+        "img":"../ICONS&IMGS/rabbit2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 27,
+        "productName": "rabbit",
+        "img":"../ICONS&IMGS/rabbit.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 28,
+        "productName": "rabbit",
+        "img":"../ICONS&IMGS/rabbit1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 29,
+        "productName": "sheep",
+        "img":"../ICONS&IMGS/sheep.webp",
+        "second-link": ""
+      },
+      {
+        "id": 30,
+        "productName": "sheep",
+        "img":"../ICONS&IMGS/sheep1.webp",
+        "second-link": ""
+      },
+      {
+        "id": 31,
+        "productName": "goat",
+        "img":"../ICONS&IMGS/goat.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 32,
+        "productName": "goat",
+        "img":"../ICONS&IMGS/goat1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 33,
+        "productName": "snail",
+        "img":"../ICONS&IMGS/snaik.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 34,
+        "productName": "snail",
+        "img":"../ICONS&IMGS/snail.webp",
+        "second-link": ""
+      },
+      {
+        "id": 35,
+        "productName": "sausage",
+        "img":"../ICONS&IMGS/sausage.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 36,
+        "productName": "sausage",
+        "img":"../ICONS&IMGS/sausage1.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 37,
+        "productName": "sausage",
+        "img":"../ICONS&IMGS/sausage.webp",
+        "second-link": ""
+      }
+    ]
+  },
+  {
+    "category": "tea",
+    "link": "",
+    "products": [
+      {
+        "id": 38,
+        "productName": "tea",
+        "img": "../ICONS&IMGS/tea 1.webp",
+        "second-link": ""
+      },
+      {
+        "id": 39,
+        "productName": "tea",
+        "img": "../ICONS&IMGS/tea 2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 40,
+        "productName": "tea",
+        "img": "../ICONS&IMGS/tea.jpg",
+        "second-link": ""
+      }
+    ]
+  },
+  {
+    "category": "potatoes",
+    "link": "",
+    "products": [
+      {
+        "id": 41,
+        "productName": "irish potatoes",
+        "img": "../ICONS&IMGS/potatoes.webp",
+        "second-link": ""
+      },
+      {
+        "id": 42,
+        "productName": "irish potatoes",
+        "img": "../ICONS&IMGS/potatoes1.webp",
+        "second-link": ""
+      },
+      {
+        "id": 43,
+        "productName": "sweet potatoes",
+        "img": "../ICONS&IMGS/potatoes2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 44,
+        "productName": "sweet potatoes",
+        "img": "../ICONS&IMGS/potatoes3.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 45,
+        "productName": "chips",
+        "img": "../ICONS&IMGS/potatoes4.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 46,
+        "productName": "chips",
+        "img": "../ICONS&IMGS/Chips 1.avif",
+        "second-link": ""
+      },
+      {
+        "id": 47,
+        "productName": "sote",
+        "img": "../ICONS&IMGS/Chips 2.jpg",
+        "second-link": ""
+      },
+      {
+        "id": 48,
+        "productName": "sote",
+        "img": "../ICONS&IMGS/Chips 3.webp",
+        "second-link": ""
+      }
+    ]
+  },
+  {
+    "category": "burger",
+    "link": "",
+    "id": 49,
+    "productName": "burger",
+    "img": "../ICONS&IMGS/burger.jpg",
+    "second-link": ""
+  }
+]

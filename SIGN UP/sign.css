@@ -1,0 +1,21 @@
+*{
+    padding: auto;
+    font-family: sans-serif;
+}
+
+.form-box{
+    width: 13cm;
+    height: 12cm;
+    border: 1px solid #162938;
+    margin-left: 28%;
+    margin-top: 5%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-top: 5em;
+    margin-left: 5em;
+}

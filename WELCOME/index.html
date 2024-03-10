@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERMAN RESAURANT</title>
+    <link rel="stylesheet" href="../WELCOME/welcome.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../WELCOME/wlcome.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="../ICONS&IMGS/dish-solid-24.png">
+</head>
+<body>
+    <header>
+        <ol class="index-links">
+            <li id="german">GERMAN RESAURANT</li>
+            <li>
+                <ol id="links">
+                    <li title="HOME"><a href ="../HOME/home.html">HOME</a></li>
+                    <li title="ABOUT"><a href="../ABOUT/about.html">ABOUT</a></li>
+                    <li title="CONTACTS"><a href="../CONTACTS/contacts.html">CONTACTS</a></li>
+                    <li title="HELP"><a href="../HELP/help.html">HELP</a></li>
+                </ol>
+            </li>
+            <li id="search_container search-wrapper">
+                <ol class="search">
+                    <li><input type="search" name="search_bar" id="search_bar search" placeholder="SEARCH HERE..." data-search class="data-search"></li>
+                    <li><a href="../LOGIN/login.html"><button type="submit">LOGIN</button></a></li>
+                </ol>
+                <div class="user-cards"></div>
+                <div class="user-cards data-user-cards-container" data-user-cards-container></div>
+                <template class="data-user-template" data-user-template>
+                    <div class="card">
+                        <div class="header data-header" data-header></div>
+                        <div class="body data-body" data-body></div>
+                    </div>
+                </template>
+            </li>
+        </ol>
+    </header>
+    <main>
+      <div>
+        <!-----CENTER WECOME TEXT----->
+        <marquee behavior="text" direction="left">PUBLISHED BY JEREMY</marquee>
+        <h1>WELCOME TO GERMAN RESAURANT</h1>
+        <marquee behavior="text" direction="right" id="marquee">PUBLISHED BY JEREMY</marquee>
+      </div>
+      <div class="image">
+        <!---LEFT IMAGE SLIDESHOW----->
+        <marquee behavior="png" direction="down">
+            <img src="../ICONS&IMGS/banana.jpg" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/Chips 1.avif" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/cheese 1.jpg" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/Chicken 2.webp" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/omulete.jpg" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/potatoes.webp" alt="food" class="images" loading="lazy"><br>
+            <img src="../ICONS&IMGS/Hash-Brown Breakfast Toast with Egg & Salsa.jpg" alt="food" class="images" loading="lazy">
+        </marquee>
+      </div>
+    </main>
+</body>
+</html>
